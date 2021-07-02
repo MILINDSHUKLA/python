@@ -1,29 +1,10 @@
-#Write a program to implement the usage of look up table as a dictionary for finding out the country name from code of 25 countries.
-country ={
-1:'Afghanistan',	
-2:'Albania',	
-3:'Algeria',
-4:'Andorra',	
-5:'Angola',
-6:'Antigua', 
-7:'Argentina',
-8:'Armenia',
-9:'Australia',
-10:'Austria',	
-11:'Azerbaijan',	
-12:'Bahamas',
-13:'Bahrain',	
-14:'Bangladesh',	
-15:'Barbados',
-16:'Belarus',	
-17:'Belgium',	
-18:'Belize',	
-19:'Benin',	
-20:'Bhutan',	
-21:'Bolivia',	
-22:'Bosnia', 
-23:'Botswana',	
-24:'Brazil',	
-25:'Brunei',		
-}
-print(country[1])
+import math
+print("Program to make a dictionary as a look up table")
+d={"AFG":"Afghanistan", "ALB":"Albania", "DZA":"Algeria","AGO": "Angola","ATA":"Antarctica","ARG":"Argentina","ARM": "Armenia"}
+d2={1:math.factorial(1), 2:math.factorial(2), 3:math.factorial(3),4:math.factorial(4),5:math.factorial(5),6:math.factorial(6),7:math.factorial(7)}
+k=input("Enter the abbrevation for country")
+k=k.upper()
+print("Country is",d[k])
+n=int(input("Enter the number whose factorial needs to be find out"))
+print ("Factorial is",d2[n])
+
